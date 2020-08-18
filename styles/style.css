@@ -1,0 +1,169 @@
+body
+{
+    background-image: url(../images/code.jpeg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-family: sans-serif;
+    color: #222;
+}
+.divfondo
+{
+    background-color: #E7E7E7; 
+    padding: 1em; 
+    padding-bottom: 2em;
+    margin-left: 7%; 
+    margin-right: 7%;
+}
+h1
+{
+    text-align: center; 
+    color:#09F;
+    text-shadow: 2px 2px 0 #000;
+    opacity: 1;
+}
+h2, h3, h4, h5, h6
+{
+    text-indent: 1em;
+}
+.divcodigo
+{
+    color: #F0F0F0;
+    background-color: #003;
+    font-family: monospace; 
+    padding:1em;
+    margin: 1em 0;
+}
+.htmldefault
+{
+    color: black;
+    background-color: white;
+    font-family: serif; 
+    padding:2em;
+}
+.htmldefault h1
+{
+    text-align: left;
+    color: initial;
+    text-shadow: initial;
+    opacity: initial;
+}
+.htmldefault h2, .htmldefault h3, .htmldefault h4, .htmldefault h5, .htmldefault h6
+{
+    text-indent: initial;
+}
+a
+{
+    text-decoration: none; 
+}
+a li
+{
+    text-decoration: none; 
+    font-weight: bold;  
+    color: #090;
+    background-color: transparent;
+}
+a li:hover, a li:active
+{
+    background-color: #C5C5C5;
+}
+footer
+{
+    bottom:0px;
+    color:yellow;
+    background-color: #003;
+    text-align: center;
+    padding: 10px;
+    margin:0;
+    margin-top: 3em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.volver
+{
+    margin: 2em;
+}
+.abotonB, .abotonB:link, .abotonB:visited
+{
+    margin: none;
+    border: none;
+    background-color: #09F;
+    color: #E7E7E7;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: normal;
+}
+.abotonB:hover, .abotonB:active
+{
+    background-color: #2BF;
+}
+.abotonR:link, .abotonR:visited, .abotonR
+{
+    margin: none;
+    border: none;
+    background-color: #FF1A1A;
+    color: #E7E7E7;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: normal;
+}
+.abotonR:hover, .abotonR:active
+{
+    background-color: #FF4D4D;
+}
+code
+{
+    color: blue;
+    font-family: monospace;
+    font-size: 1.1em;
+    background-color: #BBB;
+    padding: 0 3px;
+}
+.code
+{
+    color: blue;
+    font-family: monospace;
+    font-size: 1.1em;
+    background-color: #BBB;
+    padding: 2px 3px;
+    width: 90%;
+    margin: 1em auto;
+}
+.tabla1, .tabla1 th, .tabla1 td
+{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    display: scroll;
+}
+.tabla1
+{
+    border: 1px solid rgb(52, 116, 235);
+    overflow: auto;
+}
+.tabla1 tr:nth-child(odd)
+{
+    background-color: rgb(185, 207, 248);
+}
+.tabla1 tr:nth-child(even)
+{
+    background-color: rgb(232, 239, 253);
+}
+.tabla1 th
+{
+    color: white;
+    background-color: rgb(52, 116, 235);
+    padding: 0.3em 2em;
+    border: 0px;
+}
+.tabla1 td
+{
+    padding: 0.1em 0.5em;
+    border-bottom: 1px solid rgb(52, 116, 235);
+    border-top: 1px solid rgb(52, 116, 235);
+}
